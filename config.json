@@ -1,0 +1,10 @@
+{
+    "country_codes": {
+        "Hungary": "CTY%7C10Y1001C--00003F!CTY_CTY%7C10Y1001C--00003F_CTY_CTY%7C10YHU-MAVIR----U",
+        "Moldova": "CTY%7C10Y1001C--00003F!CTY_CTY%7C10Y1001C--00003F_CTY_CTY%7C10Y1001A1001A990",
+        "Poland": "CTY%7C10Y1001C--00003F!CTY_CTY%7C10Y1001C--00003F_CTY_CTY%7C10YPL-AREA-----S",
+        "Romania": "CTY%7C10Y1001C--00003F!CTY_CTY%7C10Y1001C--00003F_CTY_CTY%7C10YRO-TEL------P",
+        "Slovakia": "CTY%7C10Y1001C--00003F!CTY_CTY%7C10Y1001C--00003F_CTY_CTY%7C10YSK-SEPS-----K"
+    },
+    "url_template": "https://transparency.entsoe.eu/transmission-domain/physicalFlow/show?name=&defaultValue=false&viewType=TABLE&areaType=BORDER_CTY&atch=false&dateTime.dateTime={datetime}+00:00%7CEET%7CDAY&border.values={border_values}&dateTime.timezone=EET_EEST&dateTime.timezone_input=EET+(UTC+2)+/+EEST+(UTC+3)"
+}
