@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.11'
+          python-version: '3.x'  # Specify your Python version here
 
       - name: Install dependencies
         run: |
@@ -38,8 +38,9 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
+          git checkout -b data-updates || git checkout data-updates
           git add data/ output.json output_daily.json
           git commit -m "Update data and output.json for $YESTERDAY"
-          git push
+          git push origin data-updates
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
