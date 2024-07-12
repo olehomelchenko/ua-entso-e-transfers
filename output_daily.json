@@ -1,5 +1,65 @@
 [
   {
+    "Date":"2024-04-02",
+    "Country":"Hungary",
+    "Export_from_UA":1634.0,
+    "Import_to_UA":1358.0
+  },
+  {
+    "Date":"2024-04-02",
+    "Country":"Moldova",
+    "Export_from_UA":0.0,
+    "Import_to_UA":10949.0
+  },
+  {
+    "Date":"2024-04-02",
+    "Country":"Poland",
+    "Export_from_UA":0.0,
+    "Import_to_UA":0.0
+  },
+  {
+    "Date":"2024-04-02",
+    "Country":"Romania",
+    "Export_from_UA":2886.0,
+    "Import_to_UA":2385.0
+  },
+  {
+    "Date":"2024-04-02",
+    "Country":"Slovakia",
+    "Export_from_UA":1972.0,
+    "Import_to_UA":4473.0
+  },
+  {
+    "Date":"2024-04-03",
+    "Country":"Hungary",
+    "Export_from_UA":5643.0,
+    "Import_to_UA":0.0
+  },
+  {
+    "Date":"2024-04-03",
+    "Country":"Moldova",
+    "Export_from_UA":0.0,
+    "Import_to_UA":11517.0
+  },
+  {
+    "Date":"2024-04-03",
+    "Country":"Poland",
+    "Export_from_UA":0.0,
+    "Import_to_UA":0.0
+  },
+  {
+    "Date":"2024-04-03",
+    "Country":"Romania",
+    "Export_from_UA":1225.0,
+    "Import_to_UA":4754.0
+  },
+  {
+    "Date":"2024-04-03",
+    "Country":"Slovakia",
+    "Export_from_UA":5256.0,
+    "Import_to_UA":2307.0
+  },
+  {
     "Date":"2024-04-04",
     "Country":"Hungary",
     "Export_from_UA":381.0,
