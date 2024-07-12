@@ -4,6 +4,7 @@ import os
 import argparse
 import logging
 import json
+import time
 
 # Set up logging configuration
 logging.basicConfig(
@@ -69,6 +70,7 @@ def main(date):
 
     for country, code in country_codes.items():
         load_to_csv(date, country)
+        time.sleep(1)
 
 
 if __name__ == "__main__":
