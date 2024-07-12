@@ -1,12 +1,12 @@
-name: Daily Load
+name: Daily Load and Assemble
 
 on:
   schedule:
-    - cron: '0 3 * * *'  # Runs every day at 02:00 UTC
+    - cron: '0 2 * * *'  # Runs every day at 02:00 UTC
   workflow_dispatch:  # Allows the workflow to be manually triggered
 
 jobs:
-  load-data:
+  load-and-assemble:
     runs-on: ubuntu-latest
 
     steps:
@@ -28,3 +28,18 @@ jobs:
           YESTERDAY=$(date -d "yesterday" '+%Y-%m-%d')
           echo "Running load.py for date: $YESTERDAY"
           python load.py --date "$YESTERDAY"
+
+      - name: Run assemble script
+        run: |
+          echo "Running assemble.py"
+          python assemble.py
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add data/ output.json output_daily.json
+          git commit -m "Update data and output.json for $YESTERDAY"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
