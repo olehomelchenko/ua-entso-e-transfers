@@ -1,0 +1,30 @@
+name: Daily Load
+
+on:
+  schedule:
+    - cron: '0 3 * * *'  # Runs every day at 02:00 UTC
+  workflow_dispatch:  # Allows the workflow to be manually triggered
+
+jobs:
+  load-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run load script for previous date
+        run: |
+          YESTERDAY=$(date -d "yesterday" '+%Y-%m-%d')
+          echo "Running load.py for date: $YESTERDAY"
+          python load.py --date "$YESTERDAY"
