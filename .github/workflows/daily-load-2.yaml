@@ -65,7 +65,6 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Daily run for $(date +'%Y-%m-%d')"
           branch: ${{ steps.create_branch.outputs.branch }}
-          base: main
           delete-branch: false
           title: "Daily run for $(date +'%Y-%m-%d')"
           body: "This PR is created automatically by the daily workflow."
