@@ -49,11 +49,15 @@ jobs:
           git commit -m "Daily run for $(date +'%Y-%m-%d')"
           git push --set-upstream origin ${{ steps.create_branch.outputs.branch }}
 
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v5
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "Daily run for $(date +'%Y-%m-%d')"
-          branch: ${{ steps.create_branch.outputs.branch }}
-          base: main
-          delete-branch: false # Change to true if you want to delete the branch after merging
+      # - name: Debug branch name
+      #   run: |
+      #     echo "Branch name: ${{ steps.create_branch.outputs.branch }}"
+
+      # - name: Create Pull Request
+      #   uses: peter-evans/create-pull-request@v5
+      #   with:
+      #     token: ${{ secrets.GITHUB_TOKEN }}
+      #     commit-message: "Daily run for $(date +'%Y-%m-%d')"
+      #     branch: ${{ steps.create_branch.outputs.branch }}
+      #     base: main
+      #     delete-branch: false
