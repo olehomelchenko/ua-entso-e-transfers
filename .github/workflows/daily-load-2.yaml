@@ -56,4 +56,4 @@ jobs:
           commit-message: "Daily run for $(date +'%Y-%m-%d')"
           branch: ${{ steps.create_branch.outputs.branch }}
           base: main
-          delete-branch: true # Automatically deletes the branch after merging
+          delete-branch: false # Automatically deletes the branch after merging
