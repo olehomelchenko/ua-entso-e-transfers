@@ -38,23 +38,29 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          BRANCH_NAME="data-update-$(date +'%Y%m%d%H%M%S')"
+          export BRANCH_NAME="data-update-$(date +'%Y%m%d%H%M%S')"
           git checkout -b $BRANCH_NAME
           git add data/ output.json output_daily.json
           git commit -m "Update data and output.json for $YESTERDAY"
           git push origin $BRANCH_NAME
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Create pull request
         id: create_pr
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: $BRANCH_NAME
+          branch: ${{ env.BRANCH_NAME }}
           title: "Daily data update for $YESTERDAY"
           body: "This pull request contains the daily data update for $YESTERDAY."
           base: main
+
+      - name: Install GitHub CLI
+        run: |
+          sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
+          sudo apt-add-repository https://cli.github.com/packages
+          sudo apt update
+          sudo apt install gh
 
       - name: Merge pull request
         if: steps.create_pr.outputs.pull-request-url
@@ -68,6 +74,6 @@ jobs:
       - name: Delete branch if merge is successful
         if: steps.create_pr.outputs.pull-request-url
         run: |
-          git push origin --delete $BRANCH_NAME
+          git push origin --delete ${{ env.BRANCH_NAME }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
