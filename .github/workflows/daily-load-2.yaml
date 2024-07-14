@@ -51,6 +51,6 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Daily run for $(date +'%Y-%m-%d')"
-          branch: ${{steps.commit_push.BRANCH_NAME}}
+          branch: ${{steps.commit_push.outputs.BRANCH_NAME}}
           base: main
           delete-branch: true # Automatically deletes the branch after merging
