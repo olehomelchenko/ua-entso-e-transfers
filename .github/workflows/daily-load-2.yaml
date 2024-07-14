@@ -23,14 +23,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run load.py
-        run: |
-          PREV_DATE=$(date -d "yesterday" '+%Y-%m-%d')
-          python load.py --date $PREV_DATE
-
-      - name: Run assemble.py
-        run: python assemble.py
-
       - name: Configure Git
         run: |
           git config --global user.name 'github-actions[bot]'
@@ -42,6 +34,17 @@ jobs:
           BRANCH_NAME="daily-run-$(date +'%Y-%m-%d')"
           git checkout -b $BRANCH_NAME
           echo "branch=$BRANCH_NAME" >> $GITHUB_OUTPUT
+
+      - name: Run load.py
+        run: |
+          PREV_DATE=$(date -d "yesterday" '+%Y-%m-%d')
+          python load.py --date $PREV_DATE
+
+      - name: Run assemble.py
+        run: python assemble.py
+
+      - name: commit and push
+        run: |
           git add .
           git commit -m "Daily run for $(date +'%Y-%m-%d')"
           git push origin $BRANCH_NAME
