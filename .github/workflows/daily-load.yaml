@@ -60,10 +60,18 @@ jobs:
           title: "Daily data update for ${{steps.run-load.YESTERDAY}}"
           body: "This pull request contains the daily data update for ${{steps.run-load.YESTERDAY}}."
           base: main
-          auto-merge: true
+
+      - name: Merge pull request
+        if: steps.create_pr.outputs.pull-request-url
+        run: |
+          PR_NUMBER=$(basename $(steps.create_pr.outputs.pull-request-url))
+          gh pr merge $PR_NUMBER --squash --admin --delete-branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.actor }}
 
       - name: Delete branch if merge is successful
-        if: steps.create_pr.outputs.merge_status == 'merged'
+        if: steps.create_pr.outputs.pull-request-url
         run: |
           git push origin --delete ${{ steps.commit-push.BRANCH_NAME }}
         env:
