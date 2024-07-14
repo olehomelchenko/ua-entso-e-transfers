@@ -9,6 +9,10 @@ jobs:
   load-and-assemble:
     runs-on: ubuntu-latest
 
+    env:
+      YESTERDAY: $(date -d "yesterday" '+%Y-%m-%d')
+      BRANCH_NAME: data-update-$(date +'%Y%m%d%H%M%S')
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -25,7 +29,6 @@ jobs:
 
       - name: Run load script for previous date
         run: |
-          YESTERDAY=$(date -d "yesterday" '+%Y-%m-%d')
           echo "Running load.py for date: $YESTERDAY"
           python load.py --date "$YESTERDAY"
 
@@ -38,21 +41,21 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          export BRANCH_NAME="data-update-$(date +'%Y%m%d%H%M%S')"
           git checkout -b $BRANCH_NAME
           git add data/ output.json output_daily.json
           git commit -m "Update data and output.json for $YESTERDAY"
           git push origin $BRANCH_NAME
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Create pull request
         id: create_pr
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ env.BRANCH_NAME }}
-          title: "Daily data update for $YESTERDAY"
-          body: "This pull request contains the daily data update for $YESTERDAY."
+          title: "Daily data update for ${{ env.YESTERDAY }}"
+          body: "This pull request contains the daily data update for ${{ env.YESTERDAY }}."
           base: main
 
       - name: Install GitHub CLI
