@@ -43,7 +43,7 @@ def group_daily(df):
 
 
 if __name__ == "__main__":
-    df = assemble_csvs_to_dataframe()
+    df = assemble_csvs_to_dataframe().sort_values(["Date", "Country"])
     df_daily = group_daily(df)
     export_dataframe_to_json(df)
     export_dataframe_to_json(df_daily, "output_daily.json")
