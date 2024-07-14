@@ -47,7 +47,7 @@ jobs:
         run: |
           git add .
           git commit -m "Daily run for $(date +'%Y-%m-%d')"
-          git push origin $BRANCH_NAME
+          git push --set-upstream origin $BRANCH_NAME
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
