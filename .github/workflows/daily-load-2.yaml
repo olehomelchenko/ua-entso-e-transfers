@@ -37,18 +37,20 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
       - name: Commit and push changes
+        id: commit_push
         run: |
           BRANCH_NAME="daily-run-$(date +'%Y-%m-%d')"
           git checkout -b $BRANCH_NAME
           git add .
           git commit -m "Daily run for $(date +'%Y-%m-%d')"
           git push origin $BRANCH_NAME
+          echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_OUTPUT
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Daily run for $(date +'%Y-%m-%d')"
-          branch: $BRANCH_NAME
+          branch: ${{steps.commit_push.BRANCH_NAME}}
           base: main
           delete-branch: true # Automatically deletes the branch after merging
