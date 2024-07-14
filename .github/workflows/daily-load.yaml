@@ -9,10 +9,6 @@ jobs:
   load-and-assemble:
     runs-on: ubuntu-latest
 
-    env:
-      YESTERDAY: $(date -d "yesterday" '+%Y-%m-%d')
-      BRANCH_NAME: data-update-$(date +'%Y%m%d%H%M%S')
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -28,22 +24,29 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run load script for previous date
+        id: run-load
         run: |
+          YESTERDAY=$(date -d "yesterday" '+%Y-%m-%d')
+          echo "YESTERDAY=$YESTERDAY" >> $GITHUB_OUTPUT
           echo "Running load.py for date: $YESTERDAY"
           python load.py --date "$YESTERDAY"
 
       - name: Run assemble script
+        id: run-assemble
         run: |
           echo "Running assemble.py"
           python assemble.py
 
       - name: Commit and push changes
+        id: commit-push
         run: |
+          BRANCH_NAME="data-update-$(date +'%Y%m%d%H%M%S')"
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
+          echo "BRANCH_NAME=$BRANCH_NAME" >> $GITHUB_OUTPUT
           git checkout -b $BRANCH_NAME
           git add data/ output.json output_daily.json
-          git commit -m "Update data and output.json for $YESTERDAY"
+          git commit -m "Update data and output.json for ${{steps.run-load.YESTERDAY}}"
           git push origin $BRANCH_NAME
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -53,30 +56,15 @@ jobs:
         uses: peter-evans/create-pull-request@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ env.BRANCH_NAME }}
-          title: "Daily data update for ${{ env.YESTERDAY }}"
-          body: "This pull request contains the daily data update for ${{ env.YESTERDAY }}."
+          branch: ${{ steps.commit-push.BRANCH_NAME }}
+          title: "Daily data update for ${{steps.run-load.YESTERDAY}}"
+          body: "This pull request contains the daily data update for ${{steps.run-load.YESTERDAY}}."
           base: main
-
-      - name: Install GitHub CLI
-        run: |
-          sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
-          sudo apt-add-repository https://cli.github.com/packages
-          sudo apt update
-          sudo apt install gh
-
-      - name: Merge pull request
-        if: steps.create_pr.outputs.pull-request-url
-        run: |
-          PR_NUMBER=$(basename $(steps.create_pr.outputs.pull-request-url))
-          gh pr merge $PR_NUMBER --squash --admin --delete-branch
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_USER: ${{ github.actor }}
+          auto-merge: true
 
       - name: Delete branch if merge is successful
-        if: steps.create_pr.outputs.pull-request-url
+        if: steps.create_pr.outputs.merge_status == 'merged'
         run: |
-          git push origin --delete ${{ env.BRANCH_NAME }}
+          git push origin --delete ${{ steps.commit-push.BRANCH_NAME }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
