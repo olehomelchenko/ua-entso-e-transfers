@@ -2,7 +2,7 @@ name: Daily Load and Assemble
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # Runs every day at 02:00 UTC
+    - cron: '0 3 * * *'  # Runs every day at 03:00 UTC
   workflow_dispatch:  # Allows the workflow to be manually triggered
 
 jobs:
@@ -16,7 +16,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.x'  # Specify your Python version here
+          python-version: '3.10'  # Specify your Python version here
 
       - name: Install dependencies
         run: |
@@ -38,9 +38,28 @@ jobs:
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git checkout -b data-updates || git checkout data-updates
+          BRANCH_NAME="data-update-$(date +'%Y%m%d%H%M%S')"
+          git checkout -b $BRANCH_NAME
           git add data/ output.json output_daily.json
           git commit -m "Update data and output.json for $YESTERDAY"
-          git push origin data-updates
+          git push origin $BRANCH_NAME
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create pull request
+        id: create_pr
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: $BRANCH_NAME
+          title: "Daily data update for $YESTERDAY"
+          body: "This pull request contains the daily data update for $YESTERDAY."
+          base: main
+          auto-merge: true
+
+      - name: Delete branch if merge is successful
+        if: steps.create_pr.outputs.merge_status == 'merged'
+        run: |
+          git push origin --delete $BRANCH_NAME
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
