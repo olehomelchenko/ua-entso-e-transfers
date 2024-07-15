@@ -100735,5 +100735,1349 @@
     "Export_from_UA":0.0,
     "Country":"Slovakia",
     "Date":"2024-07-12"
+  },
+  {
+    "Time":"00:00 - 01:00",
+    "Import_to_UA":186.0,
+    "Export_from_UA":0.0,
+    "Country":"Hungary",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"01:00 - 02:00",
+    "Import_to_UA":355.0,
+    "Export_from_UA":0.0,
+    "Country":"Hungary",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"02:00 - 03:00",
+    "Import_to_UA":425.0,
+    "Export_from_UA":0.0,
+    "Country":"Hungary",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"03:00 - 04:00",
+    "Import_to_UA":454.0,
+    "Export_from_UA":0.0,
+    "Country":"Hungary",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"04:00 - 05:00",
+    "Import_to_UA":468.0,
+    "Export_from_UA":0.0,
+    "Country":"Hungary",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"05:00 - 06:00",
+    "Import_to_UA":432.0,
+    "Export_from_UA":0.0,
+    "Country":"Hungary",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"06:00 - 07:00",
+    "Import_to_UA":467.0,
+    "Export_from_UA":0.0,
+    "Country":"Hungary",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"07:00 - 08:00",
+    "Import_to_UA":396.0,
+    "Export_from_UA":0.0,
+    "Country":"Hungary",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"08:00 - 09:00",
+    "Import_to_UA":394.0,
+    "Export_from_UA":0.0,
+    "Country":"Hungary",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"09:00 - 10:00",
+    "Import_to_UA":517.0,
+    "Export_from_UA":0.0,
+    "Country":"Hungary",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"10:00 - 11:00",
+    "Import_to_UA":522.0,
+    "Export_from_UA":0.0,
+    "Country":"Hungary",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"11:00 - 12:00",
+    "Import_to_UA":506.0,
+    "Export_from_UA":0.0,
+    "Country":"Hungary",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"12:00 - 13:00",
+    "Import_to_UA":619.0,
+    "Export_from_UA":0.0,
+    "Country":"Hungary",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"13:00 - 14:00",
+    "Import_to_UA":596.0,
+    "Export_from_UA":0.0,
+    "Country":"Hungary",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"14:00 - 15:00",
+    "Import_to_UA":605.0,
+    "Export_from_UA":0.0,
+    "Country":"Hungary",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"15:00 - 16:00",
+    "Import_to_UA":650.0,
+    "Export_from_UA":0.0,
+    "Country":"Hungary",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"16:00 - 17:00",
+    "Import_to_UA":604.0,
+    "Export_from_UA":0.0,
+    "Country":"Hungary",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"17:00 - 18:00",
+    "Import_to_UA":527.0,
+    "Export_from_UA":0.0,
+    "Country":"Hungary",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"18:00 - 19:00",
+    "Import_to_UA":369.0,
+    "Export_from_UA":0.0,
+    "Country":"Hungary",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"19:00 - 20:00",
+    "Import_to_UA":245.0,
+    "Export_from_UA":0.0,
+    "Country":"Hungary",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"20:00 - 21:00",
+    "Import_to_UA":211.0,
+    "Export_from_UA":0.0,
+    "Country":"Hungary",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"21:00 - 22:00",
+    "Import_to_UA":213.0,
+    "Export_from_UA":0.0,
+    "Country":"Hungary",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"22:00 - 23:00",
+    "Import_to_UA":215.0,
+    "Export_from_UA":0.0,
+    "Country":"Hungary",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"23:00 - 00:00",
+    "Import_to_UA":236.0,
+    "Export_from_UA":0.0,
+    "Country":"Hungary",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"00:00 - 01:00",
+    "Import_to_UA":405.0,
+    "Export_from_UA":0.0,
+    "Country":"Moldova",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"01:00 - 02:00",
+    "Import_to_UA":388.0,
+    "Export_from_UA":0.0,
+    "Country":"Moldova",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"02:00 - 03:00",
+    "Import_to_UA":479.0,
+    "Export_from_UA":0.0,
+    "Country":"Moldova",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"03:00 - 04:00",
+    "Import_to_UA":425.0,
+    "Export_from_UA":0.0,
+    "Country":"Moldova",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"04:00 - 05:00",
+    "Import_to_UA":552.0,
+    "Export_from_UA":0.0,
+    "Country":"Moldova",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"05:00 - 06:00",
+    "Import_to_UA":485.0,
+    "Export_from_UA":0.0,
+    "Country":"Moldova",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"06:00 - 07:00",
+    "Import_to_UA":390.0,
+    "Export_from_UA":0.0,
+    "Country":"Moldova",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"07:00 - 08:00",
+    "Import_to_UA":328.0,
+    "Export_from_UA":0.0,
+    "Country":"Moldova",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"08:00 - 09:00",
+    "Import_to_UA":262.0,
+    "Export_from_UA":0.0,
+    "Country":"Moldova",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"09:00 - 10:00",
+    "Import_to_UA":339.0,
+    "Export_from_UA":0.0,
+    "Country":"Moldova",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"10:00 - 11:00",
+    "Import_to_UA":178.0,
+    "Export_from_UA":0.0,
+    "Country":"Moldova",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"11:00 - 12:00",
+    "Import_to_UA":239.0,
+    "Export_from_UA":0.0,
+    "Country":"Moldova",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"12:00 - 13:00",
+    "Import_to_UA":293.0,
+    "Export_from_UA":0.0,
+    "Country":"Moldova",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"13:00 - 14:00",
+    "Import_to_UA":322.0,
+    "Export_from_UA":0.0,
+    "Country":"Moldova",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"14:00 - 15:00",
+    "Import_to_UA":271.0,
+    "Export_from_UA":0.0,
+    "Country":"Moldova",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"15:00 - 16:00",
+    "Import_to_UA":334.0,
+    "Export_from_UA":0.0,
+    "Country":"Moldova",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"16:00 - 17:00",
+    "Import_to_UA":493.0,
+    "Export_from_UA":0.0,
+    "Country":"Moldova",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"17:00 - 18:00",
+    "Import_to_UA":427.0,
+    "Export_from_UA":0.0,
+    "Country":"Moldova",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"18:00 - 19:00",
+    "Import_to_UA":383.0,
+    "Export_from_UA":0.0,
+    "Country":"Moldova",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"19:00 - 20:00",
+    "Import_to_UA":207.0,
+    "Export_from_UA":0.0,
+    "Country":"Moldova",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"20:00 - 21:00",
+    "Import_to_UA":254.0,
+    "Export_from_UA":0.0,
+    "Country":"Moldova",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"21:00 - 22:00",
+    "Import_to_UA":157.0,
+    "Export_from_UA":0.0,
+    "Country":"Moldova",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"22:00 - 23:00",
+    "Import_to_UA":210.0,
+    "Export_from_UA":0.0,
+    "Country":"Moldova",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"23:00 - 00:00",
+    "Import_to_UA":448.0,
+    "Export_from_UA":0.0,
+    "Country":"Moldova",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"00:00 - 00:15",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"00:15 - 00:30",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"00:30 - 00:45",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"00:45 - 01:00",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"01:00 - 01:15",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"01:15 - 01:30",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"01:30 - 01:45",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"01:45 - 02:00",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"02:00 - 02:15",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"02:15 - 02:30",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"02:30 - 02:45",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"02:45 - 03:00",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"03:00 - 03:15",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"03:15 - 03:30",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"03:30 - 03:45",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"03:45 - 04:00",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"04:00 - 04:15",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"04:15 - 04:30",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"04:30 - 04:45",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"04:45 - 05:00",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"05:00 - 05:15",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"05:15 - 05:30",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"05:30 - 05:45",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"05:45 - 06:00",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"06:00 - 06:15",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"06:15 - 06:30",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"06:30 - 06:45",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"06:45 - 07:00",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"07:00 - 07:15",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"07:15 - 07:30",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"07:30 - 07:45",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"07:45 - 08:00",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"08:00 - 08:15",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"08:15 - 08:30",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"08:30 - 08:45",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"08:45 - 09:00",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"09:00 - 09:15",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"09:15 - 09:30",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"09:30 - 09:45",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"09:45 - 10:00",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"10:00 - 10:15",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"10:15 - 10:30",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"10:30 - 10:45",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"10:45 - 11:00",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"11:00 - 11:15",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"11:15 - 11:30",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"11:30 - 11:45",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"11:45 - 12:00",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"12:00 - 12:15",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"12:15 - 12:30",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"12:30 - 12:45",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"12:45 - 13:00",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"13:00 - 13:15",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"13:15 - 13:30",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"13:30 - 13:45",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"13:45 - 14:00",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"14:00 - 14:15",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"14:15 - 14:30",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"14:30 - 14:45",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"14:45 - 15:00",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"15:00 - 15:15",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"15:15 - 15:30",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"15:30 - 15:45",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"15:45 - 16:00",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"16:00 - 16:15",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"16:15 - 16:30",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"16:30 - 16:45",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"16:45 - 17:00",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"17:00 - 17:15",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"17:15 - 17:30",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"17:30 - 17:45",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"17:45 - 18:00",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"18:00 - 18:15",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"18:15 - 18:30",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"18:30 - 18:45",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"18:45 - 19:00",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"19:00 - 19:15",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"19:15 - 19:30",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"19:30 - 19:45",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"19:45 - 20:00",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"20:00 - 20:15",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"20:15 - 20:30",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"20:30 - 20:45",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"20:45 - 21:00",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"21:00 - 21:15",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"21:15 - 21:30",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"21:30 - 21:45",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"21:45 - 22:00",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"22:00 - 22:15",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"22:15 - 22:30",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"22:30 - 22:45",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"22:45 - 23:00",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"23:00 - 23:15",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"23:15 - 23:30",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"23:30 - 23:45",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"23:45 - 00:00",
+    "Import_to_UA":null,
+    "Export_from_UA":null,
+    "Country":"Poland",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"00:00 - 01:00",
+    "Import_to_UA":0.0,
+    "Export_from_UA":107.0,
+    "Country":"Romania",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"01:00 - 02:00",
+    "Import_to_UA":0.0,
+    "Export_from_UA":216.0,
+    "Country":"Romania",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"02:00 - 03:00",
+    "Import_to_UA":0.0,
+    "Export_from_UA":217.0,
+    "Country":"Romania",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"03:00 - 04:00",
+    "Import_to_UA":0.0,
+    "Export_from_UA":160.0,
+    "Country":"Romania",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"04:00 - 05:00",
+    "Import_to_UA":0.0,
+    "Export_from_UA":203.0,
+    "Country":"Romania",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"05:00 - 06:00",
+    "Import_to_UA":0.0,
+    "Export_from_UA":192.0,
+    "Country":"Romania",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"06:00 - 07:00",
+    "Import_to_UA":0.0,
+    "Export_from_UA":181.0,
+    "Country":"Romania",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"07:00 - 08:00",
+    "Import_to_UA":0.0,
+    "Export_from_UA":209.0,
+    "Country":"Romania",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"08:00 - 09:00",
+    "Import_to_UA":0.0,
+    "Export_from_UA":211.0,
+    "Country":"Romania",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"09:00 - 10:00",
+    "Import_to_UA":0.0,
+    "Export_from_UA":253.0,
+    "Country":"Romania",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"10:00 - 11:00",
+    "Import_to_UA":0.0,
+    "Export_from_UA":220.0,
+    "Country":"Romania",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"11:00 - 12:00",
+    "Import_to_UA":0.0,
+    "Export_from_UA":186.0,
+    "Country":"Romania",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"12:00 - 13:00",
+    "Import_to_UA":0.0,
+    "Export_from_UA":192.0,
+    "Country":"Romania",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"13:00 - 14:00",
+    "Import_to_UA":0.0,
+    "Export_from_UA":263.0,
+    "Country":"Romania",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"14:00 - 15:00",
+    "Import_to_UA":0.0,
+    "Export_from_UA":270.0,
+    "Country":"Romania",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"15:00 - 16:00",
+    "Import_to_UA":0.0,
+    "Export_from_UA":296.0,
+    "Country":"Romania",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"16:00 - 17:00",
+    "Import_to_UA":0.0,
+    "Export_from_UA":201.0,
+    "Country":"Romania",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"17:00 - 18:00",
+    "Import_to_UA":0.0,
+    "Export_from_UA":308.0,
+    "Country":"Romania",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"18:00 - 19:00",
+    "Import_to_UA":0.0,
+    "Export_from_UA":315.0,
+    "Country":"Romania",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"19:00 - 20:00",
+    "Import_to_UA":0.0,
+    "Export_from_UA":155.0,
+    "Country":"Romania",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"20:00 - 21:00",
+    "Import_to_UA":0.0,
+    "Export_from_UA":184.0,
+    "Country":"Romania",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"21:00 - 22:00",
+    "Import_to_UA":0.0,
+    "Export_from_UA":255.0,
+    "Country":"Romania",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"22:00 - 23:00",
+    "Import_to_UA":0.0,
+    "Export_from_UA":199.0,
+    "Country":"Romania",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"23:00 - 00:00",
+    "Import_to_UA":0.0,
+    "Export_from_UA":163.0,
+    "Country":"Romania",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"00:00 - 01:00",
+    "Import_to_UA":475.0,
+    "Export_from_UA":0.0,
+    "Country":"Slovakia",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"01:00 - 02:00",
+    "Import_to_UA":690.0,
+    "Export_from_UA":0.0,
+    "Country":"Slovakia",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"02:00 - 03:00",
+    "Import_to_UA":773.0,
+    "Export_from_UA":0.0,
+    "Country":"Slovakia",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"03:00 - 04:00",
+    "Import_to_UA":721.0,
+    "Export_from_UA":0.0,
+    "Country":"Slovakia",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"04:00 - 05:00",
+    "Import_to_UA":758.0,
+    "Export_from_UA":0.0,
+    "Country":"Slovakia",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"05:00 - 06:00",
+    "Import_to_UA":791.0,
+    "Export_from_UA":0.0,
+    "Country":"Slovakia",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"06:00 - 07:00",
+    "Import_to_UA":744.0,
+    "Export_from_UA":0.0,
+    "Country":"Slovakia",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"07:00 - 08:00",
+    "Import_to_UA":673.0,
+    "Export_from_UA":0.0,
+    "Country":"Slovakia",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"08:00 - 09:00",
+    "Import_to_UA":571.0,
+    "Export_from_UA":0.0,
+    "Country":"Slovakia",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"09:00 - 10:00",
+    "Import_to_UA":534.0,
+    "Export_from_UA":0.0,
+    "Country":"Slovakia",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"10:00 - 11:00",
+    "Import_to_UA":471.0,
+    "Export_from_UA":0.0,
+    "Country":"Slovakia",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"11:00 - 12:00",
+    "Import_to_UA":446.0,
+    "Export_from_UA":0.0,
+    "Country":"Slovakia",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"12:00 - 13:00",
+    "Import_to_UA":528.0,
+    "Export_from_UA":0.0,
+    "Country":"Slovakia",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"13:00 - 14:00",
+    "Import_to_UA":571.0,
+    "Export_from_UA":0.0,
+    "Country":"Slovakia",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"14:00 - 15:00",
+    "Import_to_UA":589.0,
+    "Export_from_UA":0.0,
+    "Country":"Slovakia",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"15:00 - 16:00",
+    "Import_to_UA":678.0,
+    "Export_from_UA":0.0,
+    "Country":"Slovakia",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"16:00 - 17:00",
+    "Import_to_UA":652.0,
+    "Export_from_UA":0.0,
+    "Country":"Slovakia",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"17:00 - 18:00",
+    "Import_to_UA":814.0,
+    "Export_from_UA":0.0,
+    "Country":"Slovakia",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"18:00 - 19:00",
+    "Import_to_UA":744.0,
+    "Export_from_UA":0.0,
+    "Country":"Slovakia",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"19:00 - 20:00",
+    "Import_to_UA":453.0,
+    "Export_from_UA":0.0,
+    "Country":"Slovakia",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"20:00 - 21:00",
+    "Import_to_UA":475.0,
+    "Export_from_UA":0.0,
+    "Country":"Slovakia",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"21:00 - 22:00",
+    "Import_to_UA":548.0,
+    "Export_from_UA":0.0,
+    "Country":"Slovakia",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"22:00 - 23:00",
+    "Import_to_UA":470.0,
+    "Export_from_UA":0.0,
+    "Country":"Slovakia",
+    "Date":"2024-07-14"
+  },
+  {
+    "Time":"23:00 - 00:00",
+    "Import_to_UA":366.0,
+    "Export_from_UA":0.0,
+    "Country":"Slovakia",
+    "Date":"2024-07-14"
   }
 ]

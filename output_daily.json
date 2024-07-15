@@ -3058,5 +3058,35 @@
     "Country":"Slovakia",
     "Export_from_UA":0.0,
     "Import_to_UA":13590.0
+  },
+  {
+    "Date":"2024-07-14",
+    "Country":"Hungary",
+    "Export_from_UA":0.0,
+    "Import_to_UA":10212.0
+  },
+  {
+    "Date":"2024-07-14",
+    "Country":"Moldova",
+    "Export_from_UA":0.0,
+    "Import_to_UA":8269.0
+  },
+  {
+    "Date":"2024-07-14",
+    "Country":"Poland",
+    "Export_from_UA":0.0,
+    "Import_to_UA":0.0
+  },
+  {
+    "Date":"2024-07-14",
+    "Country":"Romania",
+    "Export_from_UA":5156.0,
+    "Import_to_UA":0.0
+  },
+  {
+    "Date":"2024-07-14",
+    "Country":"Slovakia",
+    "Export_from_UA":0.0,
+    "Import_to_UA":14535.0
   }
 ]
