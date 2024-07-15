@@ -3060,6 +3060,36 @@
     "Import_to_UA":13590.0
   },
   {
+    "Date":"2024-07-13",
+    "Country":"Hungary",
+    "Export_from_UA":0.0,
+    "Import_to_UA":8136.0
+  },
+  {
+    "Date":"2024-07-13",
+    "Country":"Moldova",
+    "Export_from_UA":0.0,
+    "Import_to_UA":7800.0
+  },
+  {
+    "Date":"2024-07-13",
+    "Country":"Poland",
+    "Export_from_UA":0.0,
+    "Import_to_UA":0.0
+  },
+  {
+    "Date":"2024-07-13",
+    "Country":"Romania",
+    "Export_from_UA":8366.0,
+    "Import_to_UA":0.0
+  },
+  {
+    "Date":"2024-07-13",
+    "Country":"Slovakia",
+    "Export_from_UA":0.0,
+    "Import_to_UA":16471.0
+  },
+  {
     "Date":"2024-07-14",
     "Country":"Hungary",
     "Export_from_UA":0.0,
