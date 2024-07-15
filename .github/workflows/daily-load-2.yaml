@@ -31,7 +31,7 @@ jobs:
       - name: Create new branch
         id: create_branch
         run: |
-          BRANCH_NAME="daily-run-$(date +'%Y-%m-%d')"
+          BRANCH_NAME="daily-run"
           git checkout -b $BRANCH_NAME
           echo "branch=$BRANCH_NAME" >> $GITHUB_OUTPUT
 
@@ -47,28 +47,19 @@ jobs:
         run: |
           git add .
           git commit -m "Daily run for $(date +'%Y-%m-%d')"
-          git push --set-upstream origin ${{ steps.create_branch.outputs.branch }}
+          git push --set-upstream origin daily-run
 
       - name: Debug branch name
         run: |
-          echo "Branch name: ${{ steps.create_branch.outputs.branch }}"
-
-      - name: Verify git status
-        run: git status
-
-      - name: Verify recent commits
-        run: git log -1
+          echo "Branch name: daily-run"
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Daily run for $(date +'%Y-%m-%d')"
-          branch: ${{ steps.create_branch.outputs.branch }}
+          branch: daily-run
+          base: main
           delete-branch: false
           title: "Daily run for $(date +'%Y-%m-%d')"
           body: "This PR is created automatically by the daily workflow."
-
-      - name: Debug PR creation
-        run: |
-          echo "PR created with branch: ${{ steps.create_branch.outputs.branch }}"
